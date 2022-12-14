@@ -61,11 +61,11 @@ label_name = Label(label_frame)
 label_name.config(text = 'Name')
 label_name.pack()
 
-hue_slider = Scale(slider_frame, from_ = 65535, to = 0, command = hue_command)
-sat_slider = Scale(slider_frame, from_ = 254, to = 0, command = sat_command)
+#hue_slider = Scale(slider_frame, from_ = 65535, to = 0, command = hue_command)
+#sat_slider = Scale(slider_frame, from_ = 254, to = 0, command = sat_command)
 bri_slider = Scale(slider_frame, from_ = 254, to = 0, command = bri_command)
-hue_slider.pack(side=LEFT)
-sat_slider.pack(side=LEFT)
+#hue_slider.pack(side=LEFT)
+#sat_slider.pack(side=LEFT)
 bri_slider.pack(side=LEFT)
 
 
